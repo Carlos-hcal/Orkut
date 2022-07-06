@@ -1,0 +1,41 @@
+@media screen and (max-width: 500px){ 
+    body{
+        height: 120vh;  
+    }
+    .container{
+        max-width: 80%;
+    }
+    form .user_details .input_box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .gender_details .gender_title{
+        margin-top: -15px;
+    }
+    form .gender_details .category{
+        width: 100%;
+        padding: 0px;
+    }
+    .container form .user_details{
+        max-height: 286px;
+        overflow-y: auto;
+        padding-right: 10px;
+    }
+    .container form .user_details::-webkit-scrollbar{
+        background: #ffffff00;
+        width: 10px;
+        border-radius:5px;
+        padding-left: 5px;
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color:#60bfff;
+    border-radius: 5px;
+    }
+}
+@media screen and (min-height: 667px){
+    body{
+        height: 100vh;
+    }
+    
+}
+
